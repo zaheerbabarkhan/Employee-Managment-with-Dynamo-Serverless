@@ -1,0 +1,25 @@
+export default {
+	type: 'object',
+	properties: {
+		fullName: { type: 'string' },
+		dateOfBirth: { type: 'string', 'format': 'date' },
+		address: { type: 'string' },
+		jobRole: { type: 'string' },
+		fullTime: { type: 'string' },
+		contractLengthDays: { type: 'number' },
+		department: { type: 'string' },
+		salary: { type: 'number' },
+		dateJoined: { type: 'string', 'format': 'date' },
+	},
+	required: [
+		'fullName',
+		'dateOfBirth',
+		'address',
+		'jobRole',
+		'fullTime',
+		'contractLengthDays',
+		'department',
+		'salary',
+		'dateJoined',
+	],
+} as const;

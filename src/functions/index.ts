@@ -1,0 +1,9 @@
+export { default as saveEmployee } from './saveEmployee';
+export { default as updateEmployee } from './updateEmployee';
+export { default as updatePayroll } from './updatePayroll';
+export { default as updateAttendance } from './updateAttendance';
+export { default as deleteEmployee } from './deleteEmployee';
+export { default as getEmployeesList } from './getEmployees';
+export { default as getEmployee } from './getEmployee';
+export { default as getEmployeePayroll } from './getPayroll';
+export { default as getEmployeeAttendence } from './getAttendence';
